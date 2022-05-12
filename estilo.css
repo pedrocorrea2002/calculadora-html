@@ -1,0 +1,52 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+}
+input{
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+}
+input[type=button]{
+    width: 100px;
+    height: 50px;
+}
+div#calculator div{
+    display: flex;
+}
+input[type=text]{
+    width:calc(100% - 4px);
+    height: 40px;
+}
+div#quarta input:nth-child(1){
+    background: rgb(138, 107, 148);
+    border-bottom-left-radius: 50px;
+}
+div#quarta input:nth-child(3){
+    background: rgb(138, 107, 148);
+}
+div#quarta input:nth-child(4){
+    border-bottom-right-radius: 50px;
+}
+div#calculator input:nth-child(4){
+    background: rgb(168, 168, 168);
+}
+input[type=button]:hover {
+    filter: brightness(50%);
+    transition: 0.2s;
+}
+input[type=button]:active {
+    transform: scale(0.9);
+}
