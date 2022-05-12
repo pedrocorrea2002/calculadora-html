@@ -1,1 +1,1 @@
-![alt text](https://github.com/pedrocorrea2002/calculadora-html/blob/main/calculadora.png?raw=true)
+![alt text](https://github.com/pedrocorrea2002/calculadora-html/blob/main/calculadora.gif?raw=true)
