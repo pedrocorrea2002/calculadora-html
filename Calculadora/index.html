@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript"src="calculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name = "calc">
+        <div id="calculator">
+            <input type="text" id="visor" name="visor">
+            <div id="primeira">
+                <input type="button" value="7" class= "button border" onclick="button(value)">
+                <input type="button" value="8" class= "button border" onclick="button(value)">
+                <input type="button" value="9" class= "button border" onclick="button(value)">
+                <input type="button" value="/" class= "button border" onclick="button(value)">
+            </div>
+            <div id="segunda">
+                <input type="button" value="4" class= "button border" onclick="button(value)">
+                <input type="button" value="5" class= "button border" onclick="button(value)">
+                <input type="button" value="6" class= "button border" onclick="button(value)">
+                <input type="button" value="*" class= "button border" onclick="button(value)">
+            </div>
+            <div id="terceira">
+                <input type="button" value="1" class= "button border" onclick="button(value)">
+                <input type="button" value="2" class= "button border" onclick="button(value)">
+                <input type="button" value="3" class= "button border" onclick="button(value)">
+                <input type="button" value="-" class= "button border" onclick="button(value)">
+            </div>
+            <div id="quarta">
+                <input type="button" value="C" class= "button border" onclick="reset()">
+                <input type="button" value="0" class= "button border" onclick="button(value)">
+                <input type="button" value="=" class= "button border" onclick="calculo()">
+                <input type="button" value="+" class= "button border" onclick="button(value)">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
